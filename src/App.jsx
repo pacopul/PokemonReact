@@ -9,7 +9,7 @@ const App = () => {
   const [pokemons, setPokemons] = useState([]);
     useEffect(() => {
     fetchPokemons()
-      .then(setPokemons)
+      .then(pokemons => setPokemons(pokemons))
       .catch((err) => {
         console.log(err.message);
       });
