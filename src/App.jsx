@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import header from './assets/header.jpeg';
+import header from './assets/header.png';
 import './App.css';
 import PokemonCard from './components/PokemonCard';
 import { fetchPokemons } from './service/pokemonService'; // Importa el servicio
